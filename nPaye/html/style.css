@@ -1,0 +1,60 @@
+/* Réinitialisation */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Le fond noir qui apparaît uniquement quand le NUI est ouvert */
+#fuel-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur */
+#fuel-container {
+    background: rgba(28, 28, 28, 0.95);
+    padding: 25px 30px;
+    border-radius: 12px;
+    width: 360px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+#payCash {
+    background: #27ae60;
+}
+#payCard {
+    background: #2980b9;
+}
+#cancel {
+    background: #c0392b;
+}
